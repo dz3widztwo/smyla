@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title> formularz Mydłowski </title>
+</head>
+<body>
+
+<body bgcolor="#87CEFA">
+<center><h1> Formularz o Hobby Uczniów</h1></center>
+<form enctype="text/plain" action="mailto: buba.mydlo@gmail.com" subject="formularz_dane" method="Post">
+<TABLE>
+<TR height="100">
+<TD width="500">
+<b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">
+<br><br>
+<b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">
+<br><br>
+<b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
+<br><br>
+<b>Klasa	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>&nbsp &nbsp<input name="login" size="22"><nobr> <br>
+</TD>
+<TD width="150">
+<center><font size="5"><b>Województwo</b></font></center><br>
+<center> <select>
+<option value="autobus">Pomorskie</option>
+<option value="motocykl">kujawsko-pomorskie</option>
+<option value="prom">lubuskie</option>
+<option value="samolot">dolnośląskie</option>
+<option value="lodz">łódzkie</option>
+<option value="kajak">opolskie</option>
+</select> </center>
+</TD>
+
+<TD width="300">
+<center><font size="5"><b>Miasto</b></font></center><br>
+<center> <select>
+<option value="autobus">Gdańsk</option>
+<option value="motocykl">Gdynia</option>
+<option value="prom">Sopot</option>
+<option value="samolot">Bydgoszcz</option>
+<option value="lodz">Toruń</option>
+<option value="kajak">Włocławek</option>
+<option value="autobus">Gorzów Wielkopolski</option>
+<option value="motocykl">Zielona Góra</option>
+<option value="prom">Nowa Sól</option>
+<option value="samolot">Wrocław</option>
+<option value="lodz">Wałbrzych</option>
+<option value="kajak">Legnica</option>
+<option value="autobus">Łódź</option>
+<option value="motocykl">Piotrków Trybunalski</option>
+<option value="prom">Pabianice</option>
+<option value="samolot">Opole</option>
+<option value="lodz">Kędzierzyn-Koźle</option>
+<option value="kajak">Nysa</option>
+</select> </center>
+</TD>
+</TR>
+<TR height="500">
+<TD><nobr>Czy masz Hobby związane z Szkołą?</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Tak
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Nie wiem <br> <br> 
+</TD>
+<TD>podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br>
+<br>
+Podaj dni tgodnia &nbsp &nbsp <textarea cols="10" rows="1"></textarea> </TD> 
+
+<TR height="150">
+<TD><nobr>Jakie masz Hobby?</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Czytanie
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Gry komputerowe
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Sporty
+<br><br>
+<input type="radio" name="pyt3" value="tak"> inne <br> <br></TD>
+<TD> Jeśli zaznaczyłeś Inne to podaj swoje Hobby. <br>Wpisz swoje Hobby poniżej</b> <textarea cols="40" rows="7"></textarea> </TD>
+
+</TR>
+<TR height="100">
+<TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk niespodzianka</	></TD>
+<TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> </TD>
+<TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+</TR>
+</TABLE>
+</form>
+
+
+</body>
+</html>
